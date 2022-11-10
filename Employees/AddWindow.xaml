@@ -1,0 +1,26 @@
+﻿<Window x:Class="Employees.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Employees"
+        mc:Ignorable="d"
+        Title="AddWindow" Height="400" Width="400">
+    <Grid Margin="14,-6,-14,6" >
+        <Label Content="Add new Employee" FontSize="18" HorizontalAlignment="Left" Height="41" Margin="10,10,0,0" VerticalAlignment="Top" Width="179"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Height="28" Margin="15,50,0,0" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="15,80,0,0" VerticalAlignment="Top" Height="28" Width="66"/>
+        <Label Content="Speciality" HorizontalAlignment="Left" Margin="15,140,0,0" VerticalAlignment="Top" Height="28" Width="60"/>
+        <Label Content="Salary" HorizontalAlignment="Left" Height="28" Margin="15,200,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="Birth Date" HorizontalAlignment="Left" Margin="15,110,0,0" VerticalAlignment="Top" Height="28" Width="85"/>
+        <Label Content="Employement Date" HorizontalAlignment="Left" Height="28" Margin="15,170,0,0" VerticalAlignment="Top" Width="127"/>
+        <TextBox Name="FirstName" HorizontalAlignment="Left" Margin="150,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="LastName" HorizontalAlignment="Left" Margin="150,85,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="BirthDate" HorizontalAlignment="Left" Margin="150,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Speciality" HorizontalAlignment="Left" Margin="150,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="EmployementDate" HorizontalAlignment="Left" Margin="150,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Salary" HorizontalAlignment="Left" Margin="150,205,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button Content="   Add   " HorizontalAlignment="Left" Margin="218,231,0,0" VerticalAlignment="Top" Height="20" Width="52" Click="Add_Button_Click"/>
+
+    </Grid>
+</Window>

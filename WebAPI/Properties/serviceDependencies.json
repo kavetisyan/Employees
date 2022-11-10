@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:C::USERS:INTERN_1:SOURCE:REPOS:EMPLOYEES:EMPLOYEES:EMPLOYEES.MDF",
+      "dynamicId": null
+    }
+  }
+}

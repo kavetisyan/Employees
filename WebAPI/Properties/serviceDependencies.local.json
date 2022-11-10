@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:C::USERS:INTERN_1:SOURCE:REPOS:EMPLOYEES:EMPLOYEES:EMPLOYEES.MDF",
+      "dynamicId": null
+    }
+  }
+}
